@@ -1,0 +1,81 @@
+.background {
+    background-image: url(../Images/loginpage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    width: 30rem;
+}
+
+.container-wrapper {
+    background-color: rgb(169, 75, 216);
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+    
+}
+.text{
+    text-align: center;
+    margin-top: 30%;
+    width: 80%;
+}
+.font {
+    font-style: italic;
+    font-size: x-large;
+}
+.bg-whitebc{
+    background-color: white;
+    height: 40rem;
+width: 30rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.logo2 {
+    width: 10%;
+}
+.bot {
+
+    border-radius: 5%;
+    background-color:rgb(169, 75, 216) ;
+    color: white;
+}
+
+.formElements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.formElements input{
+    margin-bottom: 10px;
+    height:40px ;
+    width:100%;
+}
+
+
+
+
+@media all and (max-width:480px) {
+    .container2{
+        height: 250vh;
+        width: 26rem;
+        display: block;
+        justify-content: center;
+        overflow: hidden;
+}
+.bg-sm{
+    background-color: white;
+    height: 85vh;
+    width: 25rem;
+    overflow: hidden;
+    
+}
+
+.background2 {
+    height: 30rem;
+    width: 25rem;
+    overflow: hidden;
+}
+
+}

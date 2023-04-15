@@ -1,0 +1,258 @@
+
+body {
+    background-image: url(./Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo {
+    width: 8%;
+    background-color: white;
+}
+.logo2 {
+    width: 20%;
+}
+
+.button {
+    margin-left: 42%;
+   margin-bottom: 5%;
+   background-color: white;
+   color:rgb(169, 75, 216) ;
+}
+.visit:hover {
+    background-color: rgb(214, 165, 238);
+}
+.font {
+    
+    font-size: small;
+    font-style: italic;
+}
+.font1 {
+    font-size: 18px;
+}
+.font2 {
+    font-size: 40px;
+    font-style: italic;
+}
+.font3 {
+    font-size: 50px;
+}
+.image2 {
+    width: 100px;
+}
+
+.margin {
+    margin-right: 25%;
+}
+
+.padding {
+    padding: 10% 200% ;
+}
+.background2 {
+    background-image: url(./Images/background.jpeg);
+    background-repeat: no-repeat;
+    height: 70vh;
+background-position:top;
+    overflow: hidden;
+    background-size: cover;
+}
+.back {
+text-align: center;
+font-size: 45px;
+font-style: italic;
+}
+.video1 {
+    width: 80%;
+border-radius: 5%;
+
+}
+.video2 {
+    width: 50%;
+    border-radius: 5%;
+}
+.video3 {
+    width: 20%;
+}
+.bg-creamwhite {
+    background-color: rgb(214, 165, 238);
+    border-radius: 200px;
+}
+/* rgb(198, 223, 231) */
+.bg-white1 {
+    background-color: white;
+    border-radius:50px;
+    
+ 
+}
+.bg-pitch {
+    background-color: gainsboro;
+    padding-top: 5%;
+}
+.subscribe1 {
+    text-align: center;
+    font-style: italic;
+}
+.h2 {
+    font-size: medium;
+    text-align: center;
+}
+.image2 {
+    width: 220px;
+    height: 200px; 
+}
+
+.bg-darkblue {
+    background-color:rgb(31, 31, 48) ;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
+.subscribe {
+    text-align: center;
+    font-size: 30px;
+}
+.para {
+    font-size: large;
+}
+
+.mr {
+    margin-left: 20%;
+}
+
+.white {
+    background-color: white; 
+    height: 90vh;
+    
+}
+
+/* .pod {
+    bottom: 0%;
+} */
+
+.vid {
+    width:85% ;
+    height: 150%;
+    padding-bottom: 10%;
+    margin-top: 3%;
+
+    
+}
+
+.vid1 {
+    margin-left: 10% ;
+}
+
+.background-about {
+    background-color: white;
+    height:150%;
+}
+
+.content {
+    position:absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    display: block;
+    flex-direction: column;
+    justify-content:left ;
+    margin-left:10% ;
+    margin-top: 15%;
+    color: white;
+    
+}
+
+.overlay {
+    position: absolute;
+    top:13%;
+    left:0;
+    width:100%;
+    height:110%;
+    background-color:rgba(0,0,0,.4);
+}
+
+.border1{
+    background-color: rgba(0,0,0,.4);
+    margin-top:5%;
+    margin-left:5%;
+    width: 75%;
+    height: 50%;
+    
+}
+
+.fontsize {
+    font-size:55px;
+    font-weight: 500;
+    font-family: italic;
+}
+
+.height {
+padding-bottom: 70%;
+}
+
+
+
+
+
+@media all and (max-width:480px) {
+    body{
+        overflow: hidden;
+        background-image: url(./Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .margin{
+        margin-top: 10%;
+    }
+    .bg-pink{
+        background-color: rgb(214, 165, 238);
+        overflow: hidden;
+        border-radius: 0px;
+        background-size: cover;
+    }
+    .size {
+        width:256px ;
+        height:144px ;
+    }
+
+    .whites {
+        background-color: white;
+        height: 150vh ;  
+    }
+
+.fonts {
+    font-size: x-large;
+}
+
+    /* .sbg {
+        background-image: url(./Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    overflow: hidden;
+    }
+
+    .smargin {
+        margin-bottom: 20%;
+    }
+
+    .stext {
+font-size: x-large;
+    }
+
+    .slogo {
+        width: 12%;
+    }
+
+    .sbutton {
+        margin-right: 200%;
+    } */
+}
